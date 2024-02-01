@@ -37,3 +37,8 @@ def encrypt(raw):
 def decrypt(enc):
     cipher = AES.new(get_private_key(), AES.MODE_CBC, iv.encode('utf-8'))
     return unpad(cipher.decrypt(base64.b64decode(enc))).decode('utf8')
+
+# print(encrypt("AKIAVERIODAYOEBWEYLJ"))
+# print(decrypt("FCaeVg9Xm1VfhL3fG+MUX/gwYk360sL42uXFTXIekGo="))
+# print(encrypt("/PcrxbMsiUesGi28YNv4VAKdSuTaEJvNxan2LMuC"))
+# print(decrypt("B3jjKhzwlWYMHbBVObuLf+O91XadeJB9beIJPTlMAxyMjreXmVnFHWddeNV3wmjk"))

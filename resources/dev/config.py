@@ -5,9 +5,9 @@ iv = "youtube_encyptyo"
 salt = "youtube_AesEncryption"
 
 #AWS Access And Secret key
-aws_access_key = "your_encrypted_access_key"
-aws_secret_key = "your_encrypted_secret_key"
-bucket_name = "youtube-project-testing"
+aws_access_key = "FCaeVg9Xm1VfhL3fG+MUX/gwYk360sL42uXFTXIekGo="
+aws_secret_key = "B3jjKhzwlWYMHbBVObuLf+O91XadeJB9beIJPTlMAxyMjreXmVnFHWddeNV3wmjk"
+bucket_name = "de-fury-project"
 s3_customer_datamart_directory = "customer_data_mart"
 s3_sales_datamart_directory = "sales_data_mart"
 s3_source_directory = "sales_data/"
@@ -17,11 +17,11 @@ s3_processed_directory = "sales_data_processed/"
 
 #Database credential
 # MySQL database connection properties
-database_name = "youtube_project"
+database_name = "DE_PROJECT"
 url = f"jdbc:mysql://localhost:3306/{database_name}"
 properties = {
     "user": "root",
-    "password": "password",
+    "password": "p@ssw0rd",
     "driver": "com.mysql.cj.jdbc.Driver"
 }
 
@@ -41,8 +41,9 @@ mandatory_columns = ["customer_id","store_id","product_name","sales_date","sales
 
 
 # File Download location
-local_directory = "C:\\Users\\nikita\\Documents\\data_engineering\\spark_data\\file_from_s3\\"
-customer_data_mart_local_file = "C:\\Users\\nikita\\Documents\\data_engineering\\spark_data\\customer_data_mart\\"
-sales_team_data_mart_local_file = "C:\\Users\\nikita\\Documents\\data_engineering\\spark_data\\sales_team_data_mart\\"
-sales_team_data_mart_partitioned_local_file = "C:\\Users\\nikita\\Documents\\data_engineering\\spark_data\\sales_partition_data\\"
-error_folder_path_local = "C:\\Users\\nikita\\Documents\\data_engineering\\spark_data\\error_files\\"
+local_directory = "C:\\Users\\ganesh.gawde\\DE-Project\\file_from_s3\\"
+customer_data_mart_local_file = "C:\\Users\\ganesh.gawde\\DE-Project\\customer_data_mart\\"
+sales_team_data_mart_local_file = "C:\\Users\\ganesh.gawde\\DE-Project\\sales_team_data_mart\\"
+sales_team_data_mart_partitioned_local_file = "C:\\Users\\ganesh.gawde\\DE-Project\\sales_partition_data\\"
+error_folder_path_local = "C:\\Users\\ganesh.gawde\\DE-Project\\error_files\\"
+

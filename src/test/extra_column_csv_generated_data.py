@@ -13,7 +13,7 @@ product_data = {
     "refined oil": 110,
     "clinic plus": 1.5,
     "dantkanti": 100,
-    "nutrella": 40
+    "nutella": 40
 }
 sales_persons = {
     121: [1, 2, 3],
@@ -21,7 +21,7 @@ sales_persons = {
     123: [7, 8, 9]
 }
 
-file_location = "C:\\Users\\nikita\\Documents\\data_engineering\\spark_data"
+file_location = "C:\\Users\\ganesh.gawde\\Documents\\Data_Engineering\\spark_data"
 
 if not os.path.exists(file_location):
     os.makedirs(file_location)
